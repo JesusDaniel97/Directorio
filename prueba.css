@@ -1,0 +1,76 @@
+body{
+    background-image: url(..//directorio/imagenes/logo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+  }
+
+
+#registro{
+    position: relative;
+    left: 470px;
+    background-color: rgb(113, 113, 117);
+    max-width: 199px;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: .80;
+}
+
+#Login{
+    position: relative;
+    background-color: rgb(18, 18, 194);
+    max-width: 199px;
+    padding: 20px;
+    border-radius: 20px;
+    opacity: .01;
+    left: 470px;
+    animation-name: example;
+    animation-duration: 4s;
+    
+}
+
+@keyframes example {
+    25%  {transform: rotateY(200deg);}
+  }
+
+input[type=email]{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  input[type=tel]{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  input[type=submit]{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+  
+  input[type=password]{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+  }
+
+  input[type=text]{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.Registro{
+    border-radius: 10px;
+    background-color: rgb(18, 18, 194);
+    color: white;
+    opacity: .80;
+    border-color: white;
+}
+
+
