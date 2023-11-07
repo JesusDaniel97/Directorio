@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index3.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="registro">
+        <h1>Registro</h1>
+        <form action="Registro.php" method="post">
+              <input type="text" name="nombre" placeholder="Nombre" required><br>
+              <input type="text" name="apellido" placeholder="Apellidos" required><br>
+              <input type="email" name="correo" placeholder="Correo" required><br>  
+              <input type="password" name="contraseña" placeholder="Contraseña" required>
+              <input type="submit" value="Registrarse"><br>
+              <label id="iniciar">O inicia Sesion Aqui</label>              
+        </form>
+    </div>
+    <br>
+    <div id="Login">
+        <h1>Iniciar Secion</h1>
+        <form action="Sesion.php" method="post">
+            <input type="text" name="usuario" placeholder="Usuario"><br>
+            <input type="password" name="contraseña" placeholder="Contraseña" required><br>
+            <input type="submit" name="login" value="Iniciar Sesion" class="Registro"><br>
+        </form>      
+   </div>
+
+   <script src="index.js"></script>
+</body>
+</html>

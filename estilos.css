@@ -1,0 +1,14 @@
+table, th, td {
+    border: 1px solid blue;
+}
+
+td{
+  background-color: rgb(130, 130, 240);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+

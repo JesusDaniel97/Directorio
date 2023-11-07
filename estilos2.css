@@ -1,0 +1,70 @@
+body{
+    background-image: url(.//imagenes/centro-min2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+
+#Cabezera{
+    background-color: rgb(1, 1, 12);
+    padding-top: 40px;
+    opacity: 0.85;
+  }
+
+  a{
+    background-color: #fcfcfc;
+    color: rgb(7, 7, 121);
+    padding: 14px 25px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    left: 1200px;
+    bottom: 8px;
+    border-radius: 8px;
+ }
+
+ a:hover, a:active {
+    background-color: rgb(193, 194, 235);
+  }
+
+
+  #formulario{
+    background-color: rgb(39, 15, 128);
+    max-width: 199px;
+    font-style: normal;
+    border-radius: 10px;
+    position:relative;
+    left: 470px;
+    padding:20px;
+    opacity: 0.9;
+    top: 8px;
+  }
+
+input[type=text]{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input[type=email]{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: black;
+    position:relative;
+    color: #fcfcfc;
+    top: 320px;
+    padding: 15px;
+    opacity: .97;
+}
+
