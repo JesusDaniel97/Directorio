@@ -24,8 +24,8 @@
          $correo = $_POST["correo"];
       }
       
-      if(!empty($_POST["contraseña"])){
-         $contraseña = $_POST["contraseña"];
+      if(!empty($_POST["contrasenia"])){
+         $contraseña = $_POST["contrasenia"];
       }
       
    }   
