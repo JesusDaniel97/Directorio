@@ -11,11 +11,15 @@
       $apellido = $_GET["apellidos"];
    }
 
-   if(!empty($_GET["email"])){
-      $correo = $_GET["email"];
+   if(!empty($_GET["estado"])){
+      $estado = $_GET["estado"];
+   }
+
+   if(!empty($_GET["registro"])){
+      $registro = $_GET["registro"];
    }
    $conexion = new mysqli($servername, $username, $password,$database);
-   $consulta = "SELECT * FROM contactos WHERE Nombre = '$nombre' OR Apellidos = '$apellido' OR Correoelectronico='$correo'";
+   $consulta = "SELECT * FROM contactos WHERE Nombre = '$nombre' OR Apellidos = '$apellido' OR Estado_provincia='$estado' OR Registros='$registro'";
    
    $resultado = $conexion->query($consulta);
    if($resultado -> num_rows > 0){
