@@ -22,7 +22,8 @@
         <form action="busqueda.php" method="get" >
             <input type="text" name="nombre" placeholder="nombre"><br>
             <input type="text" name="apellidos" placeholder="apellidos"><br>
-            <input type="email" name="email" placeholder="email"><br>
+            <input type="text" name="estado" placeholder="estado"><br>
+            <input type="text" name="registro" placeholder="Registro">
             <input type="submit" value="buscar">
     
         </form>
