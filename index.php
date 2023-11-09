@@ -1,3 +1,11 @@
+<?php echo '<link rel="stylesheet" href="estilos2.css">';?>
+<?php
+       session_start();
+       if(!isset($_SESSION["usuario"])){
+            header("Location:Registro_Sesion.html");
+       }
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
