@@ -13,18 +13,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos2.css">
     <title>Busqueda</title>
-</head>
-<div id="Cabezera">
-        <a href="Cerrar_Sesion.php">Cerrar Sesion</a>
-    </div>
-</hea>                               
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>                               
 <body>
-    <?php
-       session_start();
-       if(!isset($_SESSION["usuario"])){
-            header("Location:Registro_Sesion.html");
-       };
-    ?>
+    <div>
+      <ul>
+          <?php echo "<li><h3 style='color:white;'>".$_SESSION["usuario"]."</i></h3>";?>
+          <li style="float:right"><a href="Cerrar_Sesion.php">Cerrar sesion</a></li>
+        </ul>
+  </div>
 
     <div id="formulario">
         <form action="busqueda.php" method="get" >
