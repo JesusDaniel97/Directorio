@@ -1,28 +1,29 @@
-body{
-    background-image: url(..//directorio/imagenes/logo.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;    
-  }
-
   #registro{
     background-color: rgb(113, 113, 117);
-    max-width: 199px;
+    max-width: 210px;
     padding: 20px;
     border-radius: 20px;
     opacity: .80;
     right: 470px;
+    bottom:50px;
     
   }
   #Login{
     background-color: rgb(18, 18, 194);
     max-width: 199px;
     padding: 20px;
+    left: 550px;
+    bottom: 50px;
     border-radius: 20px;
     opacity: .80;
     right: 470px;
+    animation-name: example;
+    animation-duration: 4s;
   }
-
+  @keyframes example {
+      25%  {transform: rotateY(200deg);}
+   }
+ 
 
   input[type=email]{
     margin-bottom: 10px;
