@@ -68,3 +68,35 @@ footer{
     opacity: .97;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: .8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  background-color: #fcfcfc;
+  color: rgb(7, 7, 121);
+  padding: 14px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  left: -4px;
+  bottom: -3px;
+  border-radius: 8px;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(193, 194, 235);
+}
+
+.active {
+  background-color: #04AA6D;
+}
