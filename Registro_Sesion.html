@@ -11,22 +11,22 @@
     <center><img src="imagenes/logo.png"  class="card-img-top" alt="..." width="300" height="300"></center>
     <div id="registro">
         <h1>Registro</h1>
-        <form action="Registro.php" method="post">
+        <form action="Registro.php" method="post" name="formulario" onsubmit="Mensaje()">
               <input type="text" name="nombre" placeholder="Nombre" required><br>
               <input type="text" name="apellido" placeholder="Apellidos" required><br>
               <input type="email" name="correo" placeholder="Correo" required><br>  
               <input type="password" name="contrasenia" placeholder="Contraseña" required>
-              <input type="submit" value="Registrarse"><br>
+              <input type="submit" value="Registrarse" id="Registrarse"><br>
               <label id="iniciar">O inicia Sesion Aqui</label>              
         </form>
     </div>
     <br>
     <div id="Login">
         <h1>Iniciar Secion</h1>
-        <form action="Sesion.php" method="post">
+        <form action="Sesion.php" method="post" name="login" onsubmit="ValidarDatos()">
             <input type="text" name="usuario" placeholder="Usuario"><br>
             <input type="password" name="contrasenia" placeholder="Contraseña" required><br>
-            <input type="submit" name="login" value="Iniciar Sesion" class="Registro"><br>
+            <input type="submit" name="login" value="Iniciar Sesion" class="Registro" id="Sesion"><br>
         </form>      
    </div>
 
