@@ -3,6 +3,7 @@ document.getElementById("iniciar").addEventListener("click",Moverse);
 document.getElementById("Sesion").addEventListener("click",ValidarDatos);
 document.getElementById("Registrarse").addEventListener("click", function() {
      alert("Registrado correctamente!");
+});
 
 function Moverse(){
      document.getElementById("Login").style.bottom="300px";
